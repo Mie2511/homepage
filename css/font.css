@@ -1,0 +1,158 @@
+@font-face {
+    font-family: QuicksandMed;
+    src: url(../fonts/Quicksand-Medium.ttf);
+}
+@font-face {
+    font-family: MedItalic;
+    src: url(../fonts/CormorantGaramond-MediumItalic.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/RobotoSlab-ExtraBold.ttf);
+}
+@font-face {
+    font-family: QuicksandReg;
+    src: url(../fonts/Quicksand-Regular.ttf);
+}
+@font-face {
+    font-family: QuicksandB;
+    src: url(../fonts/Quicksand-Bold.ttf);
+}
+@font-face {
+    font-family: SemiB;
+    src: url(../fonts/Quicksand-SemiBold.ttf);
+}
+.navbar{
+    font-family: QuicksandMed;
+    font-size: small;
+}
+.carousel-inner .carousel-caption p{
+    font-family: MedItalic;
+    font-size: x-large;
+    text-align: left;
+    text-indent: 5cm;
+}
+.carousel-caption h3{
+    font-family: Roboto;
+    font-size: 1.2cm;
+    letter-spacing: 5px;
+}
+.carousel-caption .btn{
+    font-family: QuicksandReg;
+}
+.new-product .btn{
+    font-family: QuicksandReg;
+}
+.new-product p{
+    font-family: MedItalic;
+    font-size: x-large;
+}
+.new-product h4, .Fav-Product h4{
+    font-family: QuicksandB;
+    font-size: 1cm;
+}
+.new-product p1,p2, .Fav-Product p1,p2{
+    font-family: QuicksandMed;
+    font-size: 14px;
+}
+.Collection h3{
+    font-family: MedItalic;
+}
+.Collection h5 , small, .card-text{
+    font-family: QuicksandReg;
+    font-size: small;
+}
+.Collection .badge{
+    font-family: QuicksandReg;
+}
+.Collection strong{
+    font-family: QuicksandB;
+}
+.Fav-Product h3{
+    font-family: MedItalic;
+}
+.Fav-Product h5{
+    font-family: QuicksandReg;
+    font-size: small;
+}
+.Sale h3{
+    font-family: MedItalic;
+}
+.Sale h5{
+    font-family: QuicksandReg;
+    font-size: small;
+}
+.time h2{
+    font-family: QuicksandB;
+}
+.time p{
+    font-family: QuicksandReg;
+}
+.time .btn{
+    font-size: 2px;
+}
+.Sale .o-price{
+    font-size:large;
+}
+.Feelings h3{
+    font-family: MedItalic;
+}
+.Feelings h5{
+    font-family: QuicksandReg;
+    font-size: small;
+}
+.Feelings h1{
+    font-family: QuicksandB;
+    font-size: 55px;
+}
+.Feelings h4{
+    font-family: QuicksandB;
+}
+.Feelings p{
+    font-family: QuicksandReg;
+}
+.Feelings ion-icon{
+    color: #EFC48D;
+}
+.Experience h3{
+    font-family: MedItalic;
+}
+.Experience h5{
+    font-family: QuicksandReg;
+    font-size: small;
+}
+.Experience .card-title{
+    font-family: QuicksandB;
+    font-size: 15px;
+}
+.Experience .btn{
+    font-family: QuicksandReg;
+}
+.News h3{
+    font-family: MedItalic;
+}
+.News h5{
+    font-family: QuicksandReg;
+    font-size: small;
+}
+.News .card-title{
+    font-family: QuicksandB;
+    font-size: 15px;
+}
+.News .btn{
+    font-family: QuicksandReg;
+}
+footer h3{
+    font-family: SemiB;
+}
+footer input{
+    font-family: QuicksandReg;
+    color: burlywood;
+}
+footer h5{
+    font-family: QuicksandB;
+}
+footer li{
+    font-family: QuicksandReg;
+    font-size: 15px;
+}

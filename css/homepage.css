@@ -1,0 +1,598 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../images/background/1.png);
+    background-repeat: no-repeat;
+    background-color: rgb(252, 248, 239);
+    width:100%;
+    height:100%; 
+    overflow-x: hidden;
+    background-size: cover;
+}
+#header{
+    background-image: no-background;
+}
+#header .navbar-nav .nav-link a{
+    color: rgb(255, 255, 255);
+}
+.full-width {
+    width: 100%;
+}
+.nav-link .bx-shopping-bag{
+    display: flex;
+}
+.nav-link .bx-shopping-bag span{
+    width: 15px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgba(255, 194, 27, 0.701);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 1px;
+
+}
+.carousel-caption {
+    position: absolute;
+    height: 56%;
+}
+.carousel-caption .iconleaf{
+    filter: brightness(0) invert(1) ;
+}
+
+.carousel-indicators {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    margin-right: 10px;
+}
+.carousel-indicators li {
+    width:  12px;
+    height: 12px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+.btn-primary {
+    color: #000;
+    background-color: rgba(239, 198, 90, 2);
+    border-radius: 50px;
+    border:1px solid rgba(239, 198, 90, 0.653);
+    font-size: small;
+    padding: 8px 20px;
+}
+
+
+.ingredients{
+    background-color: rgb(252, 248, 239);
+}
+.ingredients .row{
+    text-align: center;
+}
+.ingredients .logo-ingre{
+    width: 2.3cm;
+    padding-bottom: 0.6cm;
+}
+
+.new-product .row{
+    padding: 3cm 0 ;
+}
+.new-product .btn{
+    margin-right: 0.5cm;
+}
+.new-product img{
+    width: 60%;
+    align-items: center;
+}
+.new-product p2{
+    padding-bottom: 2cm;
+}
+
+.Collection, .Fav-Product{
+    background-color: rgb(243, 237, 221);
+    text-align: center;
+    align-items: center;
+    padding: 1cm 0;
+}
+
+.Collection h3 {
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 0.5cm;
+}
+
+.Collection h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/vector/leaf.svg);
+    background-size: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.Collection .cards-wrapper{
+    padding-top: 0;
+}
+.card img {
+    max-width: auto;
+    max-height: 100%;
+    object-fit: contain;
+}
+.card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+}
+.card-body{
+    padding: 10px;
+    text-align: left;
+}
+.card-text{
+    padding-bottom: 20px;
+    text-align: left;
+    display: flex;
+}
+.card-text .f-price{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #929292;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.card-text .o-price{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#carouselExampleControls .cards-wrapper
+{
+    padding: 5% 5%
+}
+.carousel-inner-2 {
+    padding: 0.6em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 4vh;
+  height: 4vh;
+  border-radius: 50%;
+  top: 40%;
+  padding: 0 5%;
+}
+
+.bx-chevron-right,
+.bx-chevron-left{
+    color: rgb(214, 198, 91, 1);
+    font-size: 50px;
+}
+.order{
+    display:flex;
+    justify-content: center;
+    text-align: left;
+}
+.order a .btn.btn-primary{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.order .shopping-bag-icon {
+    padding-top: 8px;
+    padding-left: 10%;
+    
+}
+@media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+ }
+ .bx-border-circle {
+    padding: .25em;
+    border: 2px solid #212529;
+    border-radius: 50%;
+ }
+ .Collection img{
+    background-color: rgb(252, 248, 239);
+    padding: 10px 0;
+    height: 5cm;
+    
+ }
+.Collection .card{
+    padding: 10px;
+}
+.Collection .btn{
+    padding: 10px 50px;
+}
+.f-price{
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #929292;
+    padding-top: 5px;
+    padding-right: 2.2cm;
+}
+.o-price{
+    font-size: 20px;
+    color: red;
+    padding-right: 0.2cm;
+}
+ .p-sale{
+    font-size: 10px;
+    color: red;
+    padding: 2px 2px 5px 5px;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin: 4px 0;
+}
+.Fav-Product h3 {
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 0.5cm;
+}
+
+.Fav-Product h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/vector/leaf.svg);
+    background-size: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+.Collection{
+    padding-bottom: 0;
+}
+.cards-wrapper{
+    padding-bottom: 0;
+}
+.Fav-Product{
+    padding-top: 0;
+
+}
+.Fav-Product .carousel-item .col-md-6{
+    text-align: left;
+    padding-top: 2cm;
+}
+.Fav-Product img{
+    width: 70%;
+}
+.Fav-Product h4{
+    padding-top: 1cm;
+}
+.Fav-Product, .carousel-indicators {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    top: 1cm;
+    right: 7cm;
+}
+.Fav-Product .carousel-indicators .active{
+    background-color: rgb(239, 198, 90);
+    border: rgb(239, 198, 90);
+}
+.Fav-Product  .carousel-indicators li{
+    margin-top: 5cm;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 0.4cm;
+}
+.Salebackground {
+    position: relative;
+    top: 2cm;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 237, 221);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1cm 0;
+    margin: 0;
+    align-content: flex-end;
+}
+
+#saler {
+    position: fixed;
+    top: 1cm;
+    left: 1.9cm;
+    z-index: 3;
+}
+
+.imageSaleBorder {
+    position: fixed;
+    top: 0;
+    left: 0.9cm;
+    z-index: 4;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 15px 45px 15px;
+}
+.time p{
+    margin-bottom: 0;
+}
+.day,.min,.hour{
+    padding: 0 1cm;
+}
+.day,.min,.hour h2,p{
+    text-align: center;
+    align-items: center;
+}
+.Sale .card-deck{
+    margin: 0;
+}
+.Sale .card-deck .card{
+    display: flex;
+    flex-direction: row;
+}
+.Sale .card-text p{
+    margin: 0;
+}
+.Sale .card-text{
+    flex-direction: column;
+    padding: 10px 0;;
+}
+.Sale .card-text h5,p{
+    text-align: left;
+}
+.Sale .card-text .order{
+    justify-content: flex-start;
+}
+.Sale .card-img{
+    background-color: #F5F0DA;
+    padding: 10px 0;
+    margin: 12px;
+    border-radius: 5px;
+    
+}
+.ct-b{
+    padding-bottom: 2.4cm;
+}
+.priceS{
+    padding-left: 15px;
+}
+.Sale .order .btn{
+    padding: 8px 50px;
+}
+.Sale h3 {
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 0.5cm;
+}
+
+.Sale h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/vector/leaf.svg);
+    background-size: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+.Sale .carousel-indicators{
+    top: 0px;
+}
+.Sale .carousel-indicators .active{
+    background-color: rgb(239, 198, 90);
+    border: rgb(239, 198, 90);
+}
+.Sale  .carousel-indicators li{
+    margin-top: 5cm;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 0.4cm;
+}
+.Feelings{
+    padding-top: 1cm;
+}
+.Feelings h3 {
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 0.5cm;
+    text-align: center;
+}
+.Feelings h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/vector/leaf.svg);
+    background-size: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+.Feelings h1{
+    margin: 0;
+}
+.Feelings h5{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.Feelings .card{
+    margin: 0 30px;
+    background-color: #F5F0DA;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+.Feelings .card p{
+    text-align: center;
+    margin: 10px 15px 15px 15px;
+}
+.Feelings .user-ava{
+    display: flex;
+}
+.Feelings .voted{
+    padding-top: 2px;
+    padding-left: 10px;
+}
+.Experience h3 {
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 0.5cm;
+    text-align: center;
+    margin-top: 1cm;
+}
+.Experience h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/vector/leaf.svg);
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+.Experience h5{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.Experience{
+    margin-top: 2cm;
+    background-color: #F3EDDD;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Experience .card-deck{
+    margin: 0 2cm;
+}
+.Experience .card img{ 
+    height: max-content;
+}
+.Experience .card-deck .card {
+    margin-right: 5px;
+    box-shadow: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.Experience .card-body{
+    padding: 0;
+}
+.Experience .card-text{
+    text-align: justify;
+}
+.Experience .card-title{
+    text-align: justify;
+}
+.Experience input{
+    margin-bottom: 0.5cm;
+}
+
+.News h3 {
+    padding-top: 30px;
+    position: relative;
+    padding-bottom: 0.5cm;
+    text-align: center;
+    margin-top: 1cm;
+}
+.News h3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/vector/leaf.svg);
+    background-size: 2.8cm;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+.News h5{
+    text-align: center;
+}
+.News .card-deck{
+    margin: 0 2cm;
+}
+.News .card img{ 
+    height: max-content;
+}
+.News .card-deck .card {
+    margin-right: 5px;
+    box-shadow: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.News .card-body{
+    padding: 0;
+}
+.News .card-text{
+    text-align: justify;
+}
+.News .card-title{
+    text-align: justify;
+}
+.News input{
+    margin-bottom: 1.5cm;
+}
+.News{
+    margin-top: 1cm;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    background-color: #F3EDDD;
+}
+footer h3{
+    padding-top: 0.5cm;
+    padding-bottom: 20px;
+}
+footer .form-control{
+    border-radius: 5cm;
+    width: 9cm;
+    padding: 10px 10px 10px 15px ;
+}
+footer .form-row{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+footer input {
+    margin: 0px 10px 10px 10px;
+}
+footer.btn-primary{
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+footer .guest li, .policy li{
+    margin-left: 15px;
+}
